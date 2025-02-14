@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # cargar la imagen y convertirla a escala de grises
-imagen = cv2.imread("imagen1.jpg", cv2.IMREAD_GRAYSCALE)
+imagen = cv2.imread("img_1.jpg", cv2.IMREAD_GRAYSCALE)
 
 # mostrar imágenes con sus títulos
 def mostrar_imagenes(imagenes, titulos):
